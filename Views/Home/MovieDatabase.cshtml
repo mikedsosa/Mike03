@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["SiteName"] = "The Joel Hilton Film Collection";
+    ViewData["PageName"] = "Movie Database";
+}
+
+
+@model IEnumerable<Mike03.Models.EnterNewMovieResponse>
+
+
+<div>
+    <h2>Here are the movies in the database</h2>
+
+    <table>
+        @* Create the header *@
+        <thead>
+            <tr><th>Category</th><th>Title</th><th>Year</th><th>Director</th><th>Rating</th><th>Edited</th><th>LentTo</th><th>Notes</th>
+        </thead>
+
+        @* Print out all the movies that have been saved *@
+        <tbody>
+            @foreach (Mike03.Models.EnterNewMovieResponse x in Model)
+            {
+                //do not print "Independence Day" or any common variation
+                if (x.Title == "Independence Day" || x.Title == "independence day" || x.Title == "Independence day" || x.Title == "independence Day")
+                { }
+                else
+                {
+                    <tr>
+                        <td>@x.Category</td>
+                        <td>@x.Title</td>
+                        <td>@x.Year</td>
+                        <td>@x.Director</td>
+                        <td>@x.Rating</td>
+                        <td>@x.Edited</td>
+                        <td>@x.LentTo</td>
+                        <td>@x.Notes</td>
+                    </tr>                
+                }
+
+            }
+        </tbody>
+    </table>
+</div>

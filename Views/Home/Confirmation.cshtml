@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["SiteName"] = "The Joel Hilton Film Collection";
+    ViewData["PageName"] = "Confirmation";
+}
+
+
+
+@model Mike03.Models.EnterNewMovieResponse
+@* Confirmation that movie was added*@
+<div>
+    <h1>Congratulations! You have successfully entered @Model.Title into the database!</h1>
+    <br />
+    <a asp-controller="Home" asp-action="MovieDatabase">Click here to view the movie database</a>
+    <br />
+    <a asp-controller="Home" asp-action="EnterNewMovie">Click here to enter a new movie</a>
+</div>
+

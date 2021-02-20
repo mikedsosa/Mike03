@@ -23,6 +23,7 @@ grows. Create a web app that has:
 all the information currently contained in the spreadsheet linked above. 
 
 Note:
+
 o For the Rating field, use a dropdown menu (G, PG, PG-13, R).
 
 o For the Edited field, we want that to be a yes/no (true/false) option.

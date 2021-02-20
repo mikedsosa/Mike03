@@ -12,9 +12,13 @@ me to make sure it’s understood that he married into some of these films.)
 
 He needs a web app to be able to more easily enter and keep track of his movie collection as it
 grows. Create a web app that has:
+
 • A shared navigation menu to each page on the site
+
 • A home page containing the title “The Joel Hilton Film Collection”
+
 • A separate “My Podcasts” page with a link to the Baconsale site: https://baconsale.com/
+
 • A separate page with a form to enter the movies. The new movie form should allow to enter
 all the information currently contained in the spreadsheet linked above. Note:
 o For the Rating field, use a dropdown menu (G, PG, PG-13, R).

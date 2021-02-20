@@ -20,15 +20,23 @@ grows. Create a web app that has:
 • A separate “My Podcasts” page with a link to the Baconsale site: https://baconsale.com/
 
 • A separate page with a form to enter the movies. The new movie form should allow to enter
-all the information currently contained in the spreadsheet linked above. Note:
+all the information currently contained in the spreadsheet linked above. 
+
+Note:
 o For the Rating field, use a dropdown menu (G, PG, PG-13, R).
+
 o For the Edited field, we want that to be a yes/no (true/false) option.
+
 o The “Edited”, “Lent To”, and “Notes” fields are optional. All other fields must be
 entered.
+
 o Notes should be limited to 25 characters.
+
 • A separate page that lists out all the movies that have been entered so far (just while the app
 is running – we have not learned yet how to connect it to a database for long-term storage.)
+
 o NOTE: Exclude the movie “Independence Day” from ever displaying in the list,
-because Joel once argued in a 4
-th of July podcast that “Independence Day” beats
+because Joel once argued in a 4th of July podcast that “Independence Day” beats
 “Rocky IV” as the “Most American Movie Ever Made” which is obviously not true!"
+
+
